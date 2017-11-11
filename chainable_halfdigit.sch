@@ -313,9 +313,9 @@ F 3 "" H 4600 7050 50  0001 C CNN
 $EndComp
 Text GLabel 2500 6850 2    60   Input ~ 0
 GND
-Text GLabel 2500 7250 2    60   Input ~ 0
-5V
 Text GLabel 2500 7050 2    60   Input ~ 0
+5V
+Text GLabel 2500 7250 2    60   Input ~ 0
 DATA_IN
 Text GLabel 1150 750  0    60   Input ~ 0
 GND
@@ -325,9 +325,9 @@ Text GLabel 1100 2150 0    60   Input ~ 0
 5V
 Text GLabel 3850 6850 0    60   Input ~ 0
 GND
-Text GLabel 3850 7050 0    60   Input ~ 0
-DATA_OUT
 Text GLabel 3850 7250 0    60   Input ~ 0
+DATA_OUT
+Text GLabel 3850 7050 0    60   Input ~ 0
 5V
 Text GLabel 1100 2850 0    60   Input ~ 0
 GND
