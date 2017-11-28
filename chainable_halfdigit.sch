@@ -1,7 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:ws2812b
 LIBS:arduino
-LIBS:nRF24L01+
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -1091,12 +1090,8 @@ Text GLabel 750  6850 0    60   Input ~ 0
 GND
 Wire Wire Line
 	750  6850 850  6850
-Text GLabel 1950 7700 0    60   Input ~ 0
+Text GLabel 1850 7700 0    60   Input ~ 0
 DATA_IN
-Wire Wire Line
-	2000 7550 2000 7700
-Wire Wire Line
-	2000 7700 1950 7700
 NoConn ~ 1100 6150
 NoConn ~ 1900 6150
 NoConn ~ 2000 6150
@@ -1111,7 +1106,7 @@ NoConn ~ 3550 6850
 NoConn ~ 1600 7550
 NoConn ~ 1700 7550
 NoConn ~ 1800 7550
-NoConn ~ 1900 7550
+NoConn ~ 2000 7550
 NoConn ~ 2100 7550
 NoConn ~ 2350 7550
 NoConn ~ 2450 7550
@@ -1123,4 +1118,8 @@ NoConn ~ 2950 7550
 NoConn ~ 3050 7550
 NoConn ~ 3550 7000
 NoConn ~ 1200 6150
+Wire Wire Line
+	1850 7700 1900 7700
+Wire Wire Line
+	1900 7700 1900 7550
 $EndSCHEMATC
