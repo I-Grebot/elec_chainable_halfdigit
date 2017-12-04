@@ -422,7 +422,7 @@
   )
 
   (module lib_fp:legend_item_round_circled (layer F.Cu) (tedit 0) (tstamp 5A1C9826)
-    (at 177.4 64)
+    (at 177.4 63.8)
     (fp_text reference G*** (at -10 0) (layer F.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.225)))
     )
@@ -956,11 +956,11 @@
   )
 
   (module lib_fp:legend_item_round_circled (layer B.Cu) (tedit 0) (tstamp 5A0CA446)
-    (at 177.4 61.6)
+    (at 177.4 64.2)
     (fp_text reference G*** (at -10 0) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.225)) (justify mirror))
     )
-    (fp_text value LOGO (at -4.2 -0.2) (layer B.SilkS) hide
+    (fp_text value LOGO (at -6.6 -0.6) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 0.037258 0.911223) (xy 0.09523 0.908547) (xy 0.147513 0.903364) (xy 0.18531 0.89687)
@@ -1002,7 +1002,7 @@
   )
 
   (module lib_fp:legend_item_round_stripe (layer B.Cu) (tedit 0) (tstamp 5A0CA43E)
-    (at 177.4 64.2)
+    (at 177.4 59)
     (fp_text reference G*** (at -10 -0.4) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.225)) (justify mirror))
     )
@@ -1051,7 +1051,7 @@
   )
 
   (module lib_fp:legend_item_round_plain (layer B.Cu) (tedit 0) (tstamp 5A0CA439)
-    (at 177.4 59)
+    (at 177.4 61.6)
     (fp_text reference G*** (at -9.8 -0.4) (layer B.SilkS) hide
       (effects (font (size 1.5 1.5) (thickness 0.225)) (justify mirror))
     )
